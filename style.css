@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  
+}
+:root {
+  --backgrond: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+}
+
+body {
+  background: url(./assets/blur-2.png) top right / 50% 100% no-repeat,
+  url(./assets/blur-1.png) bottom left / 50% 100% no-repeat;
+  background-color: black;
+  font-family: "Manrope", sans-serif;
+  /* color: var(--text-color); */
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  padding: 4rem;
+  font-style: var(--text-color);
+  font-family: "Manrope", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+li#logo {
+  padding: 0px 10rem 0px;
+  font-size: 11px;
+} 
+
+
+ul {
+  color: var(--text-color);
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  align-items: center;
+  margin: auto;
+ 
+}
+li{
+  color: var(--text-color);
+}
+
+li:hover{
+  color: var(--button);
+  text-decoration: none;
+  border: none;
+}
+
+
+li#coffe {
+  background-color: none;
+  padding: 0.62rem 2.5rem;
+  border-width: 2px;
+  border-color: var(--button);
+  border-style: solid;
+  display: flex;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 10rem;
+  border-radius: 8px ;
+  list-style: none;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  
+}
+li#coffe:hover{
+  color: var(--text-color);
+  background: var(--button);
+}
+
+
+h1{
+    color: var(--text-color);
+    font-size: 80px;
+    text-align: center;
+}
+p{
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    font-size: 80px;
+    text-align: center;
+}
